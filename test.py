@@ -39,10 +39,76 @@ square(200)
     t.left(90)
     t.forward(125)  """
 
-def equal(x):
+""" def equal(x):
     t.forward(x)
     t.left(120)
     t.forward(x)
     t.left(120)
     t.forward(x)
-    equal(270)
+equal(200) """
+
+""" def right():
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(135)
+    t.forward(142)
+right() """
+
+""" def rectangle():
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+rectangle() """
+
+""" def equal():
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+equal() """
+""" for i in range(4):
+    print(i)
+    t.forward(100)
+    t.left(90) """
+t.speed(50)
+""" for i in range(100):
+    print(i)
+    t.left(5)
+    for i in range(4):
+        print(i)
+        t.forward(100)
+        t.left(90) """
+""" for i in range(3):
+    print(i)
+    t.forward(100)
+    t.left(120) """
+""" for square in range(4):
+    print(square)
+    t.forward(100)
+    t.left(90) """
+x = 100
+y = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+""" def doublesquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length,90)
+        length = length * 2
+doublesquares(5)
+turtle.done() """
+def addsquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length,90)
+        Length += 25
+addsquares(5)
+turtle.done()
